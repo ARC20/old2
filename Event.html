@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equlv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>ARC - Event</title>
+    <link rel="icon" href="Images/Icon/Logo.png" type="image/icon type">
+    <link rel="stylesheet" href="Event.css">
+</head>
+<body class="ac-nav-overlap" onscroll="xFunction()">
+<!-- Header -->
+<header>
+    <div class="header-container">
+        <nav class="nav">
+            <ul class="nav-list nav-list-mobile">
+                <li class="nav-item">
+                    <div class="mobile-menu">
+                    	<span class="line-border line-border-top">
+	                        <span class="line line-top"></span>
+	                    </span>
+	                    <span class="line-border line-border-bottom">
+	                        <span class="line line-bottom"></span>
+	                    </span>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link nav-link-logo"></a>
+                </li>
+            </ul>
+            <ul class="nav-list nav-list-mobile nav-list-larger">
+                <li class="notice-box">
+                    <div class="notice">
+                        <p>⚠ Press the logo back to Home</p>
+                    </div>
+                </li>
+            </ul>
+            <ul class="nav-list nav-list-larger">
+                <li class="nav-item nav-item-hidden">
+                    <a href="index.html" class="nav-link nav-link-logo"></a>
+                </li>
+                <li class="nav-item">
+                    <a href="Event.html" class="nav-link current">Event</a>
+                </li>
+                <li class="nav-item">
+                    <a href="About us.html" class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Support.html" class="nav-link">Support</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Membership.html" class="nav-link">Membership</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<script src="header.js"></script>
+
+<!-- Nav -->
+<nav id="ac-localnav" class="ac-localnav-dark ac-localnav-scrim css-sticky" lang="en-MY">
+    <div class="ac-ln-wrapper">
+        <div class="ac-ln-background"></div>
+        <div class="ac-ln-content">
+            <div class="ac-ln-title">
+                <a>Event</a>
+            </div>
+            <div class="ac-ln-menu">
+                <div class="ac-ln-menu-tray">
+                    <ul class="ac-ln-menu-items">
+                        <li class="ac-ln-menu-item">
+                            <a class="ac-ln-menu-link" onclick="closenavFunction()"><button class="tablinks" onclick="openEvent(event, 'Event')" id="defaultOpen">Notice</button></a>
+                        </li>
+                        <li class="ac-ln-menu-item">
+                            <a class="ac-ln-menu-link" onclick="closenavFunction()"><button class="tablinks" onclick="openEvent(event, 'EP')" id="Photo">Photo</button></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="ac-ln-actions">
+                    <div class="ac-ln-action ac-ln-action-menucta">
+                        <label onclick="shownavFunction()" class="ac-ln-menucta">
+                            <span class="ac-ln-menucta-chevron"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<label id="ac-ln-curtain"></label>
+
+<!-- Main Contain -->
+<main class="main">
+	<section class="section">
+		<!-- Notice -->
+		<div id="Event" class="tabcontent">
+			<div class="sub-container">
+	            <div class="event-contain">
+	            	<div class="copy">
+		                <h2><p class="c1">Stay Home</p><p class="c2"> Stay Together</p><p class="c3"> Stay Connect</p></h2>
+		                <div class="des-box">
+		                    <h4>Online. Learning.</h4>
+		                    <p>Limit 50 participants</p>
+		                    <p>Even Past</p>
+		                </div>
+		            </div>
+	                <div class="image-box">
+	                    <img src="Images/Event/Notice/SHSTSC.jpg" alt="img">
+	                </div>
+	                <div class="image-box">
+	                    <img src="Images/Event/Notice/SHSTSC_2.jpg" alt="img">
+	                </div>
+	            </div>
+	        </div>
+            <div class="sub-container">
+            	<div class="event-contain">
+            		<div class="copy">
+		                <h2 class="cny">Lunar New Year Party 2020</h2>
+		                <div class="des-box">
+		                    <h4>Funny. Challenge.</h4>
+		                    <p>Event Past</p>
+		                </div>
+		            </div>
+	                <div class="image-box">
+	                    <img src="Images/Event/Notice/ARC CNY FB.jpg" alt="img">
+	                </div>
+	            </div>
+            </div>
+
+            <!-- Footer -->
+            <footer class="footer">
+				<div class="ac-gf-footer">
+					<section class="ac-gf-note">
+						<ul>
+							<li class="BC"><a href="index.html">Home</a><i class="arrow"></i>Notice</li>
+							<li>Any question: Find advisor or committee. Or email <a target="blank_" href="mailto:arclub20@gmail.com">arclub20@gmail.com</a>.</li>
+						</ul>
+					</section>
+					<section class="legal">
+						<div class="ac-gf-footer-legal">
+							<div class="ac-gf-footer-legal-copyright">
+								Copyright © 2021 Accounting Recreational Club. All rights reserved.
+							</div>
+						</div>
+					</section>
+				</div>
+			</footer>
+        </div>
+
+        <!-- Photo -->
+        <div id="EP" class="tabcontent">
+            <div class="wrapper">
+                <div class="wrapper-box large">
+                    <div class="box">
+                        <button class="tablinks2" onclick="openEventP(event, '2019')" id="DOpen">2019</button>
+                        <button class="tablinks2" onclick="openEventP(event, '2020')" id="two">2020</button>
+                        <button class="tablinks2" onclick="openEventP(event, '2021')" id="three">2021</button>
+                        <div class="segmentnav-selection-background"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2019 -->
+            <div id="2019" class="tabcontent2">
+                <div class="sub-container2">
+                	<div class="photo-contain">
+                		<div class="copy">
+		                    <h2>Annual General Meeting 2019</h2>
+		                    <h4>Update. Replacement.</h4>
+		                </div>
+	                    <div class="image-box">
+	                        <div class="grid-container">
+	                            <div class="image">
+	                                <img src="Images/Event/2019/AGM01.jpg" alt="AGM01" style="width:100%">
+	                            </div>
+	                            <div class="image">
+	                                <img src="Images/Event/2019/AGM02.jpg" alt="AGM02" style="width:100%">
+	                            </div>
+	                        </div>
+	                    </div>
+                    </div>
+                </div>
+
+                <div class="sub-container2">
+                	<div class="photo-contain">
+                		<div class="copy">
+		                    <h2>Mooncake Running Festival 3.0</h2>
+		                    <h4>Games. Make friends.</h4>
+		                </div>
+	                    <div class="image-box">
+	                        <div class="grid-container">
+	                            <div class="image">
+	                                <img src="Images/Event/2019/MRF01.jpg" alt="MRF01" style="width:100%">
+	                            </div>
+	                            <div class="image">
+	                                <img src="Images/Event/2019/MRF02.jpg" alt="MRF02" style="width:100%">
+	                            </div>
+	                        </div>
+	                    </div>
+                    </div>
+                </div>
+
+                <div class="sub-container2">
+                	<div class="photo-contain">
+                		<div class="copy">
+		                    <h2>Marathon Festival 2019</h2>
+		                    <h4>Run. Charitable.</h4>
+		                </div>
+	                    <div class="image-box">
+	                        <div class="grid-container">
+	                            <div class="image">
+	                                <img src="Images/Event/2019/MF01.jpg" alt="MF01" style="width:100%">
+	                            </div>
+	                            <div class="image">
+	                                <img src="Images/Event/2019/MF02.jpg" alt="MF02" style="width:100%">
+	                            </div>
+	                        </div>
+	                    </div>
+                    </div>
+                </div>
+
+                <div class="sub-container2">
+                	<div class="photo-contain">
+                		<div class="copy">
+		                    <h2>Welcoming Party 2019</h2>
+		                    <h4>Make friends. Relax.</h4>
+		                </div>
+	                    <div class="image-box">
+	                        <div class="grid-container">
+	                            <div class="image">
+	                                <img src="Images/Event/2019/WP01.jpg" alt="WP01" style="width:100%">
+	                            </div>
+	                            <div class="image">
+	                                <img src="Images/Event/2019/WP02.jpg" alt="WP02" style="width:100%">
+	                            </div>
+	                        </div>
+	                    </div>
+                    </div>
+                </div>
+
+                <div class="sub-container2">
+                	<div class="photo-contain">
+                		<div class="copy">
+		                    <h2>CNY Event 2019</h2>
+		                    <h4>Celebrate. Performance.</h4>
+		                </div>
+	                    <div class="image-box">
+	                        <div class="grid-container">
+	                            <div class="image">
+	                                <img src="Images/Event/2019/CNY01.jpg" alt="CNY01" style="width:100%">
+	                            </div>
+	                            <div class="image">
+	                                <img src="Images/Event/2019/CNY02.jpg" alt="CNY02" style="width:100%">
+	                            </div>
+	                        </div>
+	                    </div>
+                    </div>
+                </div>
+
+                <!-- Footer -->
+	            <footer class="footer">
+					<div class="ac-gf-footer">
+						<section class="ac-gf-note">
+							<ul>
+								<li class="BC"><a href="index.html">Home</a><i class="arrow"></i><a href="#Photo">Photo</a><i class="arrow"></i>2019</li>
+								<li>Any question: Find advisor or committee. Or email <a target="blank_" href="mailto:arclub20@gmail.com">arclub20@gmail.com</a>.</li>
+							</ul>
+						</section>
+						<section class="legal">
+							<div class="ac-gf-footer-legal">
+								<div class="ac-gf-footer-legal-copyright">
+									Copyright © 2021 Accounting Recreational Club. All rights reserved.
+								</div>
+							</div>
+						</section>
+					</div>
+				</footer>
+            </div>
+
+            <!-- 2020 -->
+            <div id="2020" class="tabcontent2">
+            	<div class="sub-container2">
+                	<div class="photo-contain">
+                		<div class="copy">
+		                    <h2>Stay Home Stay Together Stay Connect</h2>
+		                    <h4>Online. Learning.</h4>
+		                </div>
+	                    <div class="image-box">
+	                        <div class="grid-container-2">
+	                            <div class="column2">
+	                                <img src="Images/Event/2020/SHSTSC01.jpg" alt="SHSTSC01" style="width:100%">
+	                            </div>
+	                            <div class="column2">
+	                                <img src="Images/Event/2020/SHSTSC02.jpg" alt="SHSTSC02" style="width:100%">
+	                            </div>
+	                            <div class="column2">
+	                                <img src="Images/Event/2020/SHSTSC03.jpg" alt="SHSTSC03" style="width:100%">
+	                            </div>
+	                            <div class="column2">
+	                                <img src="Images/Event/2020/SHSTSC04.jpg" alt="SHSTSC04" style="width:100%">
+	                            </div>
+	                            <div class="column2">
+	                                <img src="Images/Event/2020/SHSTSC05.jpg" alt="SHSTSC05" style="width:100%">
+	                            </div>
+	                            <div class="column2">
+	                                <img src="Images/Event/2020/SHSTSC06.jpg" alt="SHSTSC06" style="width:100%">
+	                            </div>
+	                            <div class="column2">
+	                                <img src="Images/Event/2020/SHSTSC07.jpg" alt="SHSTSC07" style="width:100%">
+	                            </div>
+	                        </div>
+	                    </div>
+                    </div>
+                </div>
+
+                <div class="sub-container2">
+                	<div class="photo-contain">
+                		<div class="copy">
+		                    <h2>Lunar New Year Party 2020</h2>
+		                    <h4>Funny. Challenge.</h4>
+		                </div>
+	                    <div class="image-box">
+	                        <div class="grid-container-2">
+	                            <div class="column2">
+	                                <img src="Images/Event/2020/CNY20_01.jpg" alt="CNY01" style="width:100%">
+	                            </div>
+	                            <div class="column2">
+	                                <img src="Images/Event/2020/CNY20_02.jpg" alt="CNY02" style="width:100%">
+	                            </div>
+	                            <div class="column2">
+	                                <img src="Images/Event/2020/CNY20_03.jpg" alt="CNY03" style="width:100%">
+	                            </div>
+	                            <div class="column2">
+	                                <img src="Images/Event/2020/CNY20_04.jpg" alt="CNY04" style="width:100%">
+	                            </div>
+	                            <div class="column2">
+	                                <img src="Images/Event/2020/CNY20_05.jpg" alt="CNY05" style="width:100%">
+	                            </div>
+	                            <div class="column2">
+	                                <img src="Images/Event/2020/CNY20_06.jpg" alt="CNY06" style="width:100%">
+	                            </div>
+	                            <div class="column2">
+	                                <img src="Images/Event/2020/CNY20_07.jpg" alt="CNY07" style="width:100%">
+	                            </div>
+	                            <div class="column2">
+	                                <img src="Images/Event/2020/CNY20_08.jpg" alt="CNY08" style="width:100%">
+	                            </div>
+	                            <div class="column2">
+	                                <img src="Images/Event/2020/CNY20_09.jpg" alt="CNY09" style="width:100%">
+	                            </div>
+	                            <div class="column2">
+	                                <img src="Images/Event/2020/CNY20_10.jpg" alt="CNY10" style="width:100%">
+	                            </div>
+	                        </div>
+	                    </div>
+                    </div>
+                </div>
+
+                <!-- Footer -->
+	            <footer class="footer">
+					<div class="ac-gf-footer">
+						<section class="ac-gf-note">
+							<ul>
+								<li class="BC"><a href="index.html">Home</a><i class="arrow"></i><a href="#Photo">Photo</a><i class="arrow"></i>2020</li>
+								<li>Any question: Find advisor or committee. Or email <a target="blank_" href="mailto:arclub20@gmail.com">arclub20@gmail.com</a>.</li>
+							</ul>
+						</section>
+						<section class="legal">
+							<div class="ac-gf-footer-legal">
+								<div class="ac-gf-footer-legal-copyright">
+									Copyright © 2021 Accounting Recreational Club. All rights reserved.
+								</div>
+							</div>
+						</section>
+					</div>
+				</footer>
+            </div>
+
+            <div id="2021" class="tabcontent2">
+                <!-- Footer -->
+	            <footer class="footer">
+					<div class="ac-gf-footer">
+						<section class="ac-gf-note">
+							<ul>
+								<li class="BC"><a href="index.html">Home</a><i class="arrow"></i><a href="#Photo">Photo</a><i class="arrow"></i>2021</li>
+								<li>Any question: Find advisor or committee. Or email <a target="blank_" href="mailto:arclub20@gmail.com">arclub20@gmail.com</a>.</li>
+							</ul>
+						</section>
+						<section class="legal">
+							<div class="ac-gf-footer-legal">
+								<div class="ac-gf-footer-legal-copyright">
+									Copyright © 2021 Accounting Recreational Club. All rights reserved.
+								</div>
+							</div>
+						</section>
+					</div>
+				</footer>
+            </div>
+        </div>
+	</section>
+</main>
+</body>
+<script src="nav.js"></script>
+
+<script>
+    function openEvent(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+<script>
+    function openEventP(evt, cityName) {
+        var i, tabcontent2, tablinks2;
+        tabcontent2 = document.getElementsByClassName("tabcontent2");
+        for (i = 0; i < tabcontent2.length; i++) {
+            tabcontent2[i].style.display = "none";
+        }
+        tablinks2 = document.getElementsByClassName("tablinks2");
+        for (i = 0; i < tablinks2.length; i++) {
+            tablinks2[i].className = tablinks2[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("DOpen").click();
+</script>
+</html>
