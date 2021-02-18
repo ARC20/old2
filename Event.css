@@ -1264,6 +1264,14 @@ section{
     color: rgb(0,122,255);
 }
 
+.tabcontent .wrapper .wrapper-box .box button#two.active{
+    color: rgb(0,122,255);
+}
+
+.tabcontent .wrapper .wrapper-box .box button#three.active{
+    color: rgb(0,122,255);
+}
+
 .tabcontent .wrapper .wrapper-box .box button:not(:first-of-type)::before {
     content: '';
     display: block;
