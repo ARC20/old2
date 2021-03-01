@@ -1011,15 +1011,43 @@ section{
     align-items: center;
     justify-content: center;
     max-width: 980px;
-    margin: 0 auto;
+    margin: 12px auto 0 auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 30px;
+}
+
+.main .section .tabcontent .sub-container .BK-img-SHSTSC{
+    background-image: url('Images/Event/Notice/SHSTSC.jpg');
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    -webkit-filter: blur(20px);
+    filter: blur(20px);
+    background-size: cover;
+    z-index: -1;
+}
+
+.main .section .tabcontent .sub-container .BK-img-LNYP{
+    background-image: url('Images/Event/Notice/ARC CNY FB.jpg');
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-filter: blur(20px);
+    filter: blur(20px);
+    background-size: cover;
+    z-index: -1;
 }
 
 .main .section .tabcontent .sub-container .event-contain{
     width: 100%;
     height: auto;
-    background-color: #fff;
-    border-radius: 30px;
-    margin: 12px 0;
+    background-color: rgba(255, 255, 255, .80);
     padding: 50px 0;
     overflow: hidden;
     pointer-events: none;
@@ -1144,6 +1172,9 @@ section{
 
 @media only screen and (max-width: 980px) {
     .main .section .tabcontent .sub-container .event-contain{
+        border-radius: 0px;
+    }
+    .main .section .tabcontent .sub-container{
         border-radius: 0px;
     }
 }
@@ -1398,6 +1429,13 @@ section{
     width: 100%;
     display: block;
     border-radius: 18px;
+}
+
+/* 2021 */
+.tabcontent2 .blank{
+    width: 100%;
+    min-height: 500px;
+    position: relative;
 }
 
 @media only screen and (max-width: 1068px){
