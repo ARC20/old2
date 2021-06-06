@@ -1017,33 +1017,6 @@ section{
     border-radius: 30px;
 }
 
-.main .section .tabcontent .sub-container .BK-img-SHSTSC{
-    background-image: url('Images/Event/Notice/SHSTSC.jpg');
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-repeat: no-repeat;
-    -webkit-filter: blur(20px);
-    filter: blur(20px);
-    background-size: cover;
-    z-index: -1;
-}
-
-.main .section .tabcontent .sub-container .BK-img-LNYP{
-    background-image: url('Images/Event/Notice/ARC CNY FB.jpg');
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    -webkit-filter: blur(20px);
-    filter: blur(20px);
-    background-size: cover;
-    z-index: -1;
-}
-
 .main .section .tabcontent .sub-container .event-contain{
     width: 100%;
     height: auto;
