@@ -699,31 +699,6 @@ br.medium {
     text-decoration: underline;
 }
 
-.main .icontent .column-content .module-content .unit-wrapper .unit-copy-wrapper .cta-links .LM:after{
-    content: "►";
-    color: #06c;
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    text-decoration: none !important;
-    line-height: 1;
-    vertical-align: top;
-    display: inline-block;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    padding-left: 5px;
-    padding-right: 3px;
-    margin-top: 5px;
-    font-size: 16px;
-    line-height: 24px;
-    position: absolute;
-    height: 0;
-    vertical-align: text-top;
-    transition: transform .15s ease-in-out;
-}
-
 .main .icontent .column-content .module-content .unit-wrapper .unit-copy-wrapper .arrow {
     border: solid #06c;
     border-width: 0 2px 2px 0;
